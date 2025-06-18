@@ -51,20 +51,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .search>.search-button {
     background-color: inherit;
-    /* font-family: inherit; */
-    /* font-size: inherit; */
     height: 2rem;
-    /* text-align: inherit; */
     cursor: pointer;
-    /* white-space: nowrap; */
     border: none;
     border-radius: 4px;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* width: 100%; */
     padding: 0;
-    /* display: flex
-; */
 }
 
 .flex-component div{
@@ -91,7 +82,7 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0.6;
 }
 
-////////////////////////
+//////
 @media (max-width: 800px) {
     .profile{
         text-align: center;
