@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0;
 }
 
-.flex-component div{
+.flex-component>div{
     flex-grow: 0 !important;
 }
 
@@ -92,8 +92,8 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .logo {
-        width: 70px;
-        height: 70px;
+        width: 70px !important ;
+        height: 70px !important ;
     }
 
     .site-title span,
