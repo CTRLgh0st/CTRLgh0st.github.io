@@ -49,6 +49,28 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 13px;
 }
 
+.search>.search-button {
+    background-color: inherit;
+    /* font-family: inherit; */
+    /* font-size: inherit; */
+    height: 2rem;
+    /* text-align: inherit; */
+    cursor: pointer;
+    /* white-space: nowrap; */
+    border: none;
+    border-radius: 4px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* width: 100%; */
+    padding: 0;
+    /* display: flex
+; */
+}
+
+.flex-component div{
+    flex-grow: 0 !important;
+}
+
 //glitch style 
 
 .site-title {
@@ -67,4 +89,24 @@ h1,h2,h3,h4,h5,h6 {
     text-shadow: 0 0 6px var(--logo-color);
     pointer-events: none;
     opacity: 0.6;
+}
+
+////////////////////////
+@media (max-width: 800px) {
+    .profile{
+        text-align: center;
+    }
+    .left.sidebar {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .site-title span,
+    .glitch-overlay,.site-title {
+        font-size: 16px !important;
+    }
 }
