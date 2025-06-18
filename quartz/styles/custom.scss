@@ -1,3 +1,71 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+:root {
+    --background-color: #232121;
+    --logo-color: #60bf1f;
+    --logo-color-dark: #022d03;
+    --green-dark: #195a0a; 
+}
+
+.logo{
+    border-radius: 50%;
+    max-width: 1491px;
+    width: 160px;
+    margin: 0 auto;
+    height: 160px;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* Custom styles */
+body {
+    font-family: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    // background-color: var(--background-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: revert;
+    color: var(--logo-color);
+}
+
+.page-title a{
+    font-family: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--logo-color);
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: 3.25px;
+}
+
+.folder-container div>a{
+    color: var(--green-dark);
+}
+
+.page>#quartz-body .sidebar{
+    padding: 1rem 2rem 1rem !important;
+}
+
+.sidebar {
+    font-size: 13px;
+}
+
+//glitch style 
+
+.site-title {
+    position: relative !important;
+    color: #fff !important;
+    letter-spacing: 4px !important;
+    user-select: none !important;
+}
+
+.glitch-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-shadow: 0 0 6px var(--logo-color);
+    pointer-events: none;
+    opacity: 0.6;
+}

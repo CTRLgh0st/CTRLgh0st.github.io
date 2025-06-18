@@ -7,9 +7,19 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   return (
+    <div class="profile">
+      <div>
+        <img src="/static/images/ghost.png" alt="" class="logo" height="200" width="200"/>
+      </div>
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+      <a href={baseDir} class="site-title">
+        {title}
+        <span class="glitch-overlay">CTRLgh0st</span>
+        <span class="glitch-overlay">CTRLgh0st</span>
+      </a>
+      
     </h2>
+    </div>
   )
 }
 
