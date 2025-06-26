@@ -5,10 +5,10 @@
     --background-color: #232121;
     --logo-color: #60bf1f;
     --logo-color-dark: #022d03;
-    --green-dark: #195a0a; 
+    --green-dark: #195a0a;
 }
 
-.logo{
+.logo {
     border-radius: 50%;
     max-width: 1491px;
     width: 160px;
@@ -23,13 +23,18 @@ body {
     // background-color: var(--background-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     font-weight: revert;
     color: var(--logo-color);
 }
 
-.page-title a{
+.page-title a {
     font-family: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: var(--logo-color);
     font-weight: 900;
@@ -37,11 +42,11 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 3.25px;
 }
 
-.folder-container div>a{
+.folder-container div>a {
     color: var(--green-dark);
 }
 
-.page>#quartz-body .sidebar{
+.page>#quartz-body .sidebar {
     padding: 1rem 2rem 1rem !important;
 }
 
@@ -51,23 +56,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .search>.search-button {
     background-color: inherit;
-    /* font-family: inherit; */
-    /* font-size: inherit; */
     height: 2rem;
-    /* text-align: inherit; */
     cursor: pointer;
-    /* white-space: nowrap; */
     border: none;
     border-radius: 4px;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* width: 100%; */
     padding: 0;
-    /* display: flex
-; */
 }
 
-.flex-component div{
+.flex-component>div {
     flex-grow: 0 !important;
 }
 
@@ -91,22 +87,24 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0.6;
 }
 
-////////////////////////
+//////
 @media (max-width: 800px) {
-    .profile{
+    .profile {
         text-align: center;
     }
+
     .left.sidebar {
         padding: 5px;
     }
 
     .logo {
-        width: 70px;
-        height: 70px;
+        width: 70px !important;
+        height: 70px !important;
     }
 
     .site-title span,
-    .glitch-overlay,.site-title {
+    .glitch-overlay,
+    .site-title {
         font-size: 16px !important;
     }
 }
