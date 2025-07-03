@@ -10,7 +10,7 @@ tags:
 [https://app.hackthebox.com/machines/Nocturnal](https://app.hackthebox.com/machines/Nocturnal)
 
 ## **Introduction :**
-This article explains in detail the process of exploiting Code Machine on HackTheBox. By enumerating services on ports 80 and 22, we find a webpage for upload the files typr pdf, doc, docx, xls, xlsx, odt. which is vulnerable to **Insecure Direct Object References (IDOR)** in the **view.ph**. 
+This article explains in detail the process of exploiting Nocturnal Machine on HackTheBox. By enumerating services on ports 80 and 22, we find a webpage for upload the files typr pdf, doc, docx, xls, xlsx, odt. which is vulnerable to **Insecure Direct Object References (IDOR)** in the **view.ph**. 
 ## **Enumeration :**
 ### nmap `scan`:
 
