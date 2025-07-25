@@ -60,6 +60,7 @@ export default (() => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="1234d75c-95aa-48b1-836b-4b12bda41cf5"></script>
         <meta property="og:description" content={description} />
         <meta property="og:image:alt" content={description} />
 
