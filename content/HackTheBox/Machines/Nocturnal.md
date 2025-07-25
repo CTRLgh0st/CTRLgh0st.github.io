@@ -2,6 +2,7 @@
 title: Nocturnal
 tags: 
     - HackTheBox
+    - Easy
     - IDOR
     - web exploitation
 ---

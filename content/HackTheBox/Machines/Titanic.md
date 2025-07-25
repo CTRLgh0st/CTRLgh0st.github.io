@@ -2,6 +2,7 @@
 title: Titanic
 tags: 
     - HackTheBox
+    - Easy
     - Directory-Traversal
     - ImageMagick
     - Apache

@@ -1,7 +1,8 @@
 ---
 title: Code
 tags:
-  - HackTheBox 
+  - HackTheBox
+  - Easy 
   - Command 
   - Injection 
   - Python-Code-Editor 

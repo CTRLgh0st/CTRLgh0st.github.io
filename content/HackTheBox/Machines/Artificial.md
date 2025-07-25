@@ -2,6 +2,7 @@
 title: Artificial
 tags:
   - HackTheBox
+  - Easy
   - Hierarchical Data Formats
   - reverse shell
   - web-exploitation
@@ -41,4 +42,4 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ```
 
-# ⛔ This box is still active on HackTheBox. Once retired, I will add all write-up
+#### ⛔ This box is still active on HackTheBox. Once retired, I will add all write-up
